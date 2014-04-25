@@ -1,0 +1,96 @@
+#header {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	height: 220px;
+	background: #A9D0F5;
+}
+
+#header_text {
+	 color:black;
+	 border:none;
+	 font-size:35px;
+}
+
+#footer {
+	padding: 5px 25px 5px 5px;
+ text-align: right;
+	background: #A9D0F5;
+}
+
+#footer_text {
+	color:black;
+	border:none;
+	font-size:12px;
+}
+
+#content {
+	background: #CEE3F6;
+	padding: 20px;
+}
+#banner
+{
+  background-image:url(images/bannerppal.png);
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  width: 600px;
+  height: 190px;
+}
+.imagenes
+{
+ margin: 5px 0px 5px 5px;
+ float: left; 
+}
+
+/*estilos para menu*/
+* {
+ padding:0px;
+ margin:0px;
+}
+
+#header {
+ margin:auto;
+ width:auto;
+ font-family:arial;
+}
+
+ul, ol {
+ list-style:none;
+}
+
+.nav li a {
+ background-color:#069;
+ color:#FFFFFF;
+ text-decoration:none;
+ padding: 10px 15px;
+ display:block;
+}
+
+.nav li a:hover {
+ background-color:#080;
+}
+
+.nav > li {
+ float:left;
+}
+
+.nav li ul {
+ display:none;
+ position:absolute;
+ min-width:140px;
+}
+
+.nav li:hover > ul {
+ display:block;
+}
+
+.nav li ul li {
+ position:relative;
+}
+
+.nav li ul li ul {
+ right:-140px;
+ top:0px;
+}
+
+
